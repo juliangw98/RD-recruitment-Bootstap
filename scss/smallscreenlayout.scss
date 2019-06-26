@@ -1,0 +1,204 @@
+.orange {
+  background-color: $primary-color;
+}
+
+nav {
+  z-index: 10;
+}
+
+.stacked {
+  text-align: left;
+  flex-direction: column!important;
+  z-index: 10;
+
+  ul {
+    display: flex;
+    flex-direction: column!important;
+    list-style-type: none;
+    justify-content: flex-end;
+  }
+}
+
+header {
+  background-image: url("../images/header.jpg");
+  height: 100vh;
+  background-size: cover;
+  margin-bottom: 0;
+}
+
+.message {
+  position: absolute;
+  margin-left: 20px;
+  bottom: 50px;
+  margin-right: 20px;
+
+  h2 {
+    margin-bottom: 20px;
+  }
+
+  h1 {
+    margin-bottom: 24px;
+    margin-top: 0;
+  }
+
+  div {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+#branches {
+  position: inherit;
+  background-color: $primary-color;
+  color: white;
+  padding-top: 48px;
+  padding-left: 20px;
+  padding-bottom: 49px;
+  width: 100%;
+
+  ul {
+    list-style-type: none;
+
+    li {
+      margin-bottom: 17px;
+
+      img {
+        border: none;
+        height: 18px;
+        width: 18px;
+        background-image: url("../images/listStyleImage.png");
+        background-size: contain;
+        margin-right: 25px;
+      }
+    }
+  }
+}
+
+#spotlight {
+  width: auto;
+  margin: 60px 20px;
+}
+
+.job {
+  border-top: 1px solid #F2F2F2;
+  padding-top: 15px;
+  display: flex;
+  justify-content: space-between;
+
+  img {
+    height: 12px;
+    align-self: center;
+  }
+}
+
+#about {
+  > div:nth-child(1) {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .row {
+    padding: 0;
+    margin: 0;
+  }
+
+  div {
+    img {
+      width: 100%;
+    }
+  }
+}
+
+#aboutText {
+  padding: 35px 50px;
+
+  div {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: auto;
+    margin: 0;
+
+    a {
+      width: 160px;
+    }
+  }
+}
+
+#evenementenBig {
+  display: none;
+  grid-area: evenement;
+}
+
+#evenementenSmall {
+  display: block;
+
+  div {
+    display: flex;
+    flex-direction: column;
+
+    .evenement {
+      padding: 48px;
+      border-bottom: 1px solid #F2F2F2;
+
+      div {
+        display: flex;
+        flex-direction: row;
+
+        div {
+          margin-right: 10px;
+        }
+      }
+    }
+  }
+}
+
+#evenementenBanner {
+  width: 100%;
+  background-image: url("../images/evenementen.jpg");
+  background-size: cover;
+  height: 318px;
+}
+
+#evenementenTitle {
+  position: relative;
+  top: 275px;
+  left: 20px;
+  width: 100px;
+}
+
+#evenementButton {
+  padding: 40px 48px;
+  color: #FF811A;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+footer {
+  padding: 35px 20px;
+  background-color: $primary-color;
+  color: #FFF;
+  display: flex;
+  flex-direction: column;
+
+  div {
+    padding-bottom: 30px;
+  }
+
+  #footerLinks {
+    display: block;
+  }
+
+  #footerButtons {
+    display: none;
+  }
+
+  h3 {
+    border-bottom: 1px solid white;
+    padding-bottom: 16px;
+  }
+
+  ul {
+    list-style-type: none;
+  }
+}

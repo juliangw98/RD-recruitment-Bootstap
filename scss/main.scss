@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css?family=Eczar:500,600|Work+Sans:400,500,700&display=swap');
+@import 'fonts.scss';
+/*
+font-family: 'Work Sans', sans-serif;
+font-family: 'Eczar', serif;
+ */
+$primary-color: #FF811A;
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.pr-btn {
+  width: 100%;
+  height: 49px;
+  border-radius: 40px;
+  background-color: $primary-color;
+  text-align: center;
+  justify-content: center;
+  color: white;
+  margin-bottom: 23px;
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  padding: 15px 30px;
+
+  :hover {
+    background-color: #FFF;
+    color: $primary-color;
+  }
+}
+
+.sc-btn {
+  width: 100%;
+  height: 49px;
+  border-radius: 40px;
+  background-color: transparant;
+  text-align: center;
+  justify-content: center;
+  color: white;
+  border: 2px solid #FFF;
+
+  :hover {
+    background-color: $primary-color;
+    color: #FF;
+  }
+}
+
+a:hover {
+  color: $primary-color;
+  text-decoration: none;
+  color: white;
+}
+
+.lan {
+  border-radius: 100px;
+
+  width: 24px;
+  margin-top: 6px;
+  height: 24px;
+  border: none;
+}
+@media only screen and (min-width: 601px) {
+  @import 'bigscreenlayout.scss';
+}
+@media only screen and (max-width: 600px) {
+  @import 'smallscreenlayout.scss';
+};

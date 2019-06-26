@@ -1,0 +1,19 @@
+header {
+  background-color: red;
+  height: 50vh; }
+
+.branches {
+  background-color: yellow;
+  height: 50vh; }
+
+.spotlight {
+  background-color: green;
+  height: 50vh; }
+
+.about {
+  background-color: purple;
+  height: 50vh; }
+
+footer {
+  background-color: pink;
+  height: 50vh; }

@@ -1,0 +1,480 @@
+@media only screen and (max-width: 600px) {
+  .font1 {
+    font-family: Eczar;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 100%;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+  }
+
+  .font2 {
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    opacity: 0.6;
+  }
+
+  .font3 {
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+  }
+
+  .font4 {
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+  }
+
+  .font5 {
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 130%;
+    /* or 31px */
+    letter-spacing: -0.01em;
+    text-transform: lowercase;
+    color: #FFFFFF;
+  }
+
+  .font6 {
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    /* Greys / 20 */
+  }
+
+  .font7 {
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    /* identical to box height */
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    /* Greys / 70 */
+    color: #B5B0B0;
+  }
+
+  .font8 {
+    font-family: Eczar;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 120%;
+    /* identical to box height, or 24px */
+    letter-spacing: 0.02em;
+    /* Greys / 20 */
+    color: #343232;
+  }
+
+  .font9 {
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 12px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: lowercase;
+    color: #FF811A;
+    background-color: #FFF2E8;
+    border-radius: 40px;
+    justify-content: center;
+    padding: 7px 5px;
+  }
+
+  .font10 {
+    font-family: Eczar;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 32px;
+  }
+
+  .font11 {
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 175%;
+    /* or 31px */
+    /* Greys / 20 */
+    color: #343232;
+    opacity: 0.9;
+  }
+
+  .font12 {
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    /* White */
+    color: #FFFFFF;
+  }
+
+  .font13 {
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.01em;
+    /* White */
+    color: #FFFFFF;
+  }
+
+  .font14 {
+    font-family: Eczar;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 24px;
+    /* identical to box height, or 75% */
+    color: #FFFFFF;
+  }
+
+  .font15 {
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 100%;
+    color: #FF811A;
+  }
+
+  .font16 {
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    /* Greys / 70 */
+    color: #B5B0B0;
+  }
+
+  .font17 {
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 165%;
+    color: #343232;
+  }
+
+  .font18 {
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+    /* Primary */
+    color: #FF811A;
+  }
+  // bigger screen
+}
+@media only screen and (min-width: 601px) {
+  .font1 {
+    font-family: Eczar;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 96px;
+    line-height: 100%;
+    /* identical to box height, or 96px */
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+  }
+
+  .font2 {
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    /* identical to box height */
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    opacity: 0.6;
+  }
+
+  .font3 {
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+  }
+
+  .font4 {
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+  }
+
+  .font5 {
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 130%;
+    /* or 62px */
+    letter-spacing: -0.01em;
+    text-transform: lowercase;
+    color: #FFFFFF;
+  }
+
+  .font6 {
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    /* Greys / 20 */
+  }
+
+  .font7 {
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    /* identical to box height */
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    /* Greys / 70 */
+    color: #B5B0B0;
+  }
+
+  .font8 {
+    font-family: Eczar;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 120%;
+    /* identical to box height, or 24px */
+    letter-spacing: 0.02em;
+    /* Greys / 20 */
+    color: #343232;
+  }
+
+  .font9 {
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 12px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: lowercase;
+    color: #FF811A;
+    background-color: #FFF2E8;
+    border-radius: 40px;
+    justify-content: center;
+    padding: 7px 5px;
+  }
+
+  .font10 {
+    font-family: Eczar;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 32px;
+  }
+
+  .font11 {
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 175%;
+    /* or 31px */
+    /* Greys / 20 */
+    color: #343232;
+    opacity: 0.9;
+  }
+
+  .font12 {
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    /* White */
+    color: #FFFFFF;
+  }
+
+  .font13 {
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.01em;
+    /* White */
+    color: #FFFFFF;
+  }
+
+  .font14 {
+    font-family: Eczar;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 72px;
+    /* identical to box height, or 112% */
+    color: #FFFFFF;
+  }
+
+  .font15 {
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 100%;
+    color: #FF811A;
+  }
+
+  .font16 {
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    /* Greys / 70 */
+    color: #B5B0B0;
+  }
+
+  .font17 {
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 165%;
+    color: #343232;
+  }
+
+  .font18 {
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+    /* Primary */
+    color: #FF811A;
+  }
+
+  .font19 {
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    /* identical to box height */
+    letter-spacing: 0.02em;
+    /* White */
+    color: #FFFFFF;
+    opacity: 0.8;
+  }
+
+  .font20 {
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    text-align: right;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+    /* White */
+    color: #FFFFFF;
+  }
+
+  .font21 {
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+  }
+
+  .font22 {
+    margin-left: 10px;
+    /* font-family: Work Sans; */
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+    color: #CDCBCB;
+  }
+}
